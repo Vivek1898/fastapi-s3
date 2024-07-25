@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import boto3
 import hashlib
-# Creating our base app
+
 app = FastAPI()
 
 origins = [
