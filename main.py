@@ -29,7 +29,7 @@ def custom_error_response(error: str, code: int, message: str):
     return JSONResponse(content={"error": error, "message": message}, status_code=code)
 
 
-# S3
+
 # S3 have their own functions for uploading and downloading files
 access_key = "key"
 secret_key = "key"
